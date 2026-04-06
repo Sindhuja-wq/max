@@ -1,6 +1,6 @@
 name: Sindhu
 on:
-workflow_dispatch:
+  workflow_dispatch:
 jobs:
   shathana:
     runs-on: ubuntu-latest
