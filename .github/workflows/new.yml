@@ -1,0 +1,25 @@
+name: Sindhu
+on:
+workflow_dispatch:
+jobs:
+  shathana:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Idea Inventor
+        run: echo "shan invent the idea"
+      - name: Document collector
+        run: echo "shan collects all requirements"
+
+  prithivi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Designer
+        run: echo "prith designs the idea of shan"
+      - name: Tester
+        run: echo "prith tests the code"
+
+  sangeetha:
+    runs-on: ubuntu-latest
+    steps:
+      - name: finalizer
+        run: echo "sangeetha finalises the code"
