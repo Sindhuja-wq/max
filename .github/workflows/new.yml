@@ -11,7 +11,7 @@ jobs:
         run: echo "shan collects all requirements"
 
   prithivi:
-    needs: build
+    needs: shathana
     runs-on: ubuntu-latest
     steps:
       - name: Designer
@@ -20,6 +20,7 @@ jobs:
         run: echo "prith tests the code"
 
   sangeetha:
+    needs: prithivi
     runs-on: ubuntu-latest
     steps:
       - name: finalizer
