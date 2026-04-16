@@ -9,9 +9,9 @@ jobs:
         run: echo "shan invent the idea"
       - name: Document collector
         run: echo "shan collects all requirements"
-    
+
   prithivi:
-  needs: build
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Designer
