@@ -19,7 +19,7 @@ jobs:
       - name: Tester
         run: echo "prith tests the code"
 
-  Gayathri:
+  Sangeetha:
     needs: prithivi
     runs-on: ubuntu-latest
     steps:
