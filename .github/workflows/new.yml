@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   shathana:
-  needs: prithivi
+    needs: prithivi
     runs-on: ubuntu-latest
     steps:
       - name: Idea Inventor
